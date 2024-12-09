@@ -4,7 +4,7 @@
 
 //    const url = 'index.json';
 
-async function name() {
+async function movieapi() {
     try {
         const response = await fetch('index.json');
         const result = await response.json();
@@ -80,7 +80,7 @@ async function name() {
         console.error(error);
     }
 }
-name()
+movieapi()
 
 
 
